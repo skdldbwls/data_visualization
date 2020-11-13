@@ -1,0 +1,13 @@
+var svg = d3.select(".VIOLENCE_title")
+    .append("svg")
+    .attr('width', 1200)
+    .attr('height', 80)
+    .attr('transform','translate(180,0)')
+
+    svg.append('text')
+    .attr('x', 450)
+    .attr('y', 50)
+    .text('[ VIOLENCE ]')
+    .style('font-size', '17px')
+    .attr("font-family", "sans-serif")
+    .attr("fill", "black")
